@@ -1,0 +1,5 @@
+print(700/100+200>900 and True)
+print(90*90/10<10000 and False)
+print(45/5-4>1 or False)
+print(30*3/2>=2 or True)
+print(2000/16<=800 and True)
