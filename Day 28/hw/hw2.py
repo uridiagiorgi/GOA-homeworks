@@ -1,0 +1,1 @@
+#.lower aris funqcia romelic sityvis yvela asos adablebs
