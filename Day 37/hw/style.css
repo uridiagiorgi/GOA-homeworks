@@ -1,0 +1,20 @@
+body{
+    background-color: darkgreen;
+}
+
+button{
+    background-color:crimson;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: dimgray;
+}
+
+button:hover{
+    background-color: white;
+    font-weight: bold;
+    size: 50px;
+}
+p{
+    text-align: right;
+    text-decoration: wavy;
+    color: darkgray;
+}
