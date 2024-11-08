@@ -1,0 +1,108 @@
+body, p, h1, li, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: black;
+    line-height: 1.6;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.main-title {
+    font-size: 48px;
+}
+
+nav {
+    background-color: black;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.nav-menu li {
+    margin: 0 15px;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-menu a:hover {
+    color: #f39c12;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.main-image {
+    width: 300px;
+    height: auto;
+    margin: 20px 0;
+}
+
+.goals-text {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.click-button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.click-button:hover {
+    background-color: #2980b9;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: upper-roman;
+    list-style-position: inside;
+    padding-left: 20px;
+}
+
+li {
+    font-size: 18px;
+    color: #555;
+}
+p{
+    color: lightskyblue;
+}
+p:hover{
+    color: azure;
+}
+button{
+    background-color: aqua;
+    color: darkmagenta;
+    border-radius: 15px;
+}
+button:hover{
+    background-color: azure;
+}
