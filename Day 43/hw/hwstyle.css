@@ -1,0 +1,26 @@
+input[type = "text"]{
+    border-color: crimson;
+    color: chartreuse;
+    border-radius: 5px;
+}
+input[type = "email"]{
+    border-color: aqua;
+    color: darkblue;
+    border-radius:3px;
+}
+input[type = "date"]{
+    border-color: darkgoldenrod;
+    color: steelblue;
+    border-radius: 6px;
+}
+input[type = "password"]{
+    border-color: orange;
+    color: chartreuse;
+    border-radius: 1px;
+}
+input[type = "button"]{
+    border-color: darkorchid;
+    color: khaki;
+    width: 100px;
+    height: 100px;
+}

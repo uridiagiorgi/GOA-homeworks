@@ -1,0 +1,1 @@
+#for cikli sashvalebas gvadzlevs ragac cvladze da elementebze moqmedebebi gavaketot.
