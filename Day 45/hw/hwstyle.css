@@ -1,0 +1,21 @@
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border-radius: 15px 20px 35px 45px; 
+}
+img{
+    padding: 30px;
+    border: 10px solid black;
+    margin: 500px;
+    width: 200px;
+}
+.strawberry{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
