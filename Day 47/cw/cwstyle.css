@@ -1,0 +1,37 @@
+
+.div1 {
+    width: 80%;  
+    height: 80%;
+    background-color: wheat;
+    display: flex;
+    justify-content: center; 
+    border: 2px solid black;
+    align-items: center; 
+    margin: 0 auto; 
+}
+.div2 {
+    width: 50%; 
+    height: 50%; 
+    border: 1px solid black;
+    background-color: crimson; 
+    
+}
+
+.big-div {
+    display: flex; /* პატარა დივები ვერტიკალრად ან ჰოიზონტალურად განვალაგოთ */
+    justify-content: space-between; /* სივრცეს შექმნის პატარა დივებს შორის */
+    align-items: center; /* ალაგებს პატარა დივებს ცენტრში ვერტიკალურად */
+    padding: 20px; /* გარშემო სივრცე */
+    background-color: lightblue; /* დივის ფონის ფერი */
+}
+
+/* პატარა დივებისთვის */
+.small-div {
+    width: 100px; /* სიგრძე */
+    height: 100px; /* სიმაღლე */
+    background-color: lightcoral; /* პატარა დივის ფონის ფერი */
+}
+/* center ელემენტები ცენტრში არიან განლაგებული. */
+/* space betwwnპირველი და ბოლო ელემენტი ვერტიკალური ან ჰორიზონტალური ღერძის კიდეებზე იყოს, ხოლო დანარჩენი ელემენტები მათ შორის თანაბრად გადანაწილდება.*/
+/* space aroundელემენტებს შორის ხდება თანაბარი დაშორება, მაგრამ თითოეული ელემენტის გარშემო სივრცე უფრო მეტია, ვიდრე ერთმანეთთან. */
+/* evenly ყველა ელემენტს შორის იქნება ერთნაირი დაშორება, მათ შორის პირველი და ბოლო ელემენტი container-ის კიდეებზე. */

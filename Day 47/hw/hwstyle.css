@@ -1,0 +1,95 @@
+#div{
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    border: 1px solid black;
+    display: flex; /* ამ სტილით ვაკეთებთ div-ს ფლექს კონტეინერად */
+    align-items: center;
+    justify-content: center;
+}
+.bigdiv{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border: 1px solid rgba(77, 192, 246, 0);
+    padding: 10px;
+}
+.lildiv{
+    background-color: rgb(88, 251, 145);
+    margin: 5px 0;
+    padding: 10px;
+  text-align: center;
+  border: 1px solid cornsilk;
+}
+.div{
+    display: flex;
+    flex-direction: row; /* ელემენტები განლაგდება ჰორიზონტალურად (row) */
+    width: 100%;
+    margin: 10px 0;
+    border: 1px solid black;
+    padding: 10px;
+}
+.div1{
+    background-color: rgb(255, 0, 0);
+    margin: 0 5px;
+    padding: 10px;
+  text-align: center;
+  border: 1px solid darkblue;
+}
+#DIV{
+    display: flex;
+    flex-wrap: wrap;  /* ელემენტები განიხილება ახალ ხაზზე, როცა საჭიროა */
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+#divdiv{
+    background-color: lightblue;
+    margin: 5px;
+    padding: 10px;
+  text-align: center;
+  border: 1px solid blue;
+  width: 150px;
+}
+#GOA{
+    display: flex;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid black;
+}
+#goa{
+    background-color: lightblue;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid cornsilk;
+    width: 100px;
+}
+
+#goa:nth-child(1){
+    flex-grow: 1; /* პირველი პარაგრაფი მიიღებს მეტი სივრცე */
+}
+#goa:nth-child(2){
+    flex-grow: 1; /* მეორე პარაგრაფი მიიღებს ორჯერ მეტ სივრცეს */
+}
+.GOA{
+    display: flex;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid black;
+}
+.goa{
+    background-color: rgb(189, 195, 28);
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgb(94, 3, 3);
+}
+.goa:nth-child(1){
+    flex-shrink: 1;
+}
+.goa:nth-child(2){
+    flex-shrink: 2;
+}
