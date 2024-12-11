@@ -1,0 +1,14 @@
+.divdiv{
+    height: 500px;
+    width: 500px;
+    background-color: crimson;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.lildiv{
+    height: 125px;
+    width: 125px;
+    background-color: aqua;
+    border: 3px solid black;
+    margin-right: 10px;
+}

@@ -1,0 +1,41 @@
+.div1{
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+    display: flex;
+    margin: 20px 20px 10px 10px;
+}
+.div2{
+    font-size: large;
+    font-weight: 600;
+    font-family: monospace;
+    color: darkblue;
+    flex-wrap: wrap;
+}
+.div3{
+    font-size: large;
+    font-weight: 600;
+    font-family: monospace;
+    color: darkblue;
+    flex-shrink: inherit;
+}
+.divdiv{
+    height: 600px;
+    width: 500px;
+    background-color: chartreuse;
+}
+.p4{
+    font-size: large;
+    font-weight: 700;
+    flex-grow: unset;
+}
+.p5{
+    font-size: larger;
+    font-weight: bolder;
+    color: brown;
+    display: inline;
+}
+.h5{
+    font-family: cursive;
+    display: block;
+}
