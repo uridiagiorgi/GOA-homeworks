@@ -1,0 +1,16 @@
+.container{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(2, 2, 82);
+    justify-content: center;
+    display: flex;
+}
+img{
+    box-shadow: 10px 10px 10px 10px rgb(255, 50, 252);
+    box-shadow: inset;
+    flex-direction: row;
+    height: 30%;
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 10px;
+}
