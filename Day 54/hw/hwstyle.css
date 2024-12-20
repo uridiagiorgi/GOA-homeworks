@@ -1,0 +1,44 @@
+/* Reset and Body Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0f172a;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.suratebi {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.suratebi img {
+    width: 200px;
+    height: 175px;
+    object-fit: cover; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.suratebi img:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.paragraph {
+    margin-top: 2rem;
+    max-width: 600px;
+    line-height: 1.6;
+    font-size: 1rem;
+}
