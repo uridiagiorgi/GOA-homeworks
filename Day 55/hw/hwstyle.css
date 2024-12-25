@@ -1,0 +1,21 @@
+.container{
+    height: 400px;
+    width: 200px;
+    background-color: gray;
+    border-color: red;
+    margin-top: 300px;
+    border-radius: 10px;
+}
+img{
+    margin-top: 25px;
+    border-radius: 50%;
+    display: inline;
+}
+button{
+    border-radius: 20px;
+    background-color: rgb(61, 86, 86);
+    color: black;
+    border: 0px;
+    display: inline;
+    margin-bottom: 10px;
+}

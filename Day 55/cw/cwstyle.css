@@ -1,0 +1,29 @@
+#img1{
+    border: 3px solid brown;
+    border-radius: 5px;
+    position: absolute;
+    left: 500px;
+    top: 300px;
+}
+.img2{
+    position: fixed;
+    top: 500px;
+    left: 500px;
+}
+  .margin {
+    background: blue;
+    margin: 50px;
+  }
+  
+  .static {
+    background: green;
+  }
+  
+  
+  .absolute {
+    background: red;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+  }
+  
