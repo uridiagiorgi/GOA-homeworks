@@ -1,0 +1,16 @@
+.container1{
+    height: 500px;
+    width: 500px;
+    border: 4px dotted blue;
+    background-color: red;
+    box-shadow: inset 10px palevioletred;
+}
+.container:hover{
+    transform: scale(10px);
+    transition: 1s;
+}
+img{
+    border: 1px solid black;
+    position: static;
+}
+/* cover mtlian divs daparavs, contain ki cota nawils datovebs, repeats divshi potos gaameorebs bevrjer, xolo no repeat ar gaameorebs.
