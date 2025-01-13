@@ -1,0 +1,13 @@
+.container{
+    height: 500px;
+    width: 250px;
+    background-color: darkblue;
+    border: 3px solid red;
+}
+.img{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
