@@ -1,0 +1,1 @@
+# gakvetilze gavakete, maswavlebelma icis, prosta VS CODEshi ara, dedachemis leptopit viyavi
