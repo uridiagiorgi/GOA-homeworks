@@ -1,0 +1,131 @@
+.body1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: blue;
+}
+
+.container1 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    animation: colorChange 2s infinite alternate;
+}
+
+@keyframes colorChange {
+    0% {
+        background-color: red;
+    }
+    100% {
+        background-color: blue;
+    }
+}
+.body2 {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+    overflow: hidden;
+}
+
+.ball {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    position: relative;
+    animation: bounce 2s infinite ease-in-out;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-300px);
+    }
+}
+.body3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+}
+
+.box3 {
+    width: 200px;
+    height: 200px;
+    background-color: limegreen;
+    animation: rotateBox 2s infinite linear;
+}
+
+@keyframes rotateBox {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.body4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: wheat;
+    font-family: cursive;
+}
+
+.text4 {
+    font-size: 20px;
+    font-weight: 800;
+    animation: textColorChange 3s infinite linear;
+}
+
+@keyframes textColorChange {
+    0% {
+        color: red;
+    }
+    33% {
+        color: blue;
+    }
+    66% {
+        color: green;
+    }
+    100% {
+        color: red;
+    }
+}
+.body5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.box5 {
+    width: 200px;
+    height: 200px;
+    background-color: coral;
+    animation: sizeChange 3s infinite ease-in-out;
+}
+
+@keyframes sizeChange {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(2);
+    }
+    100% {
+        transform: scale(0.5);
+    }
+}

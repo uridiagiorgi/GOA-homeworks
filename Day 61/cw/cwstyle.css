@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: red;
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+    background-color: lightcoral;
+    animation: shrinkRotate 4s infinite;
+}
+
+@keyframes shrinkRotate {
+    0% {
+        transform: scale(1) rotate(0deg);
+    }
+    50% {
+        transform: scale(0.5) rotate(180deg);
+    }
+    100% {
+        transform: scale(1) rotate(360deg);
+    }
+}
