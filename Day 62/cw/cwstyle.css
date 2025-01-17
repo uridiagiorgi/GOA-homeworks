@@ -1,0 +1,60 @@
+body{
+    background-color: darkslategrey;
+}
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: purple; 
+  }
+  
+  
+  .loader {
+    width: 120px;
+    height: 120px;
+    border: 10px solid white; 
+    border-top: 10px solid transparent; 
+    border-bottom: 12px solid transparent; 
+    border-radius: 50%;
+    position: relative;
+    animation: spin 2s linear infinite;
+    overflow: hidden;
+  }
+  
+  
+  .ball {
+    width: 40px;
+    height: 40px;
+    background-color: violet;
+    border-radius: 50%;
+    position: absolute;
+    top: -30px; 
+    left: 50%;
+    transform: translateX(-50%);
+    animation: moveBall 2s ease-in-out infinite;
+  }
+  
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+  @keyframes moveBall {
+    0% {
+      transform: translate(-50%, -30px); 
+    }
+    50% {
+      transform: translate(-50%, 60px); 
+    }
+    100% {
+      transform: translate(-50%, 150px); 
+    }
+  }
+  
