@@ -1,0 +1,146 @@
+.body1 {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: darkblue;
+}
+
+.container {
+    position: relative;
+    width: 300px;
+    height: 150px;
+}
+
+.ball {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.ball-left {
+    left: 0;
+}
+
+.ball-right {
+    right: 0;
+}
+
+.small-ball {
+    width: 30px;
+    height: 30px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    animation: throwBall 2s infinite ease-in-out;
+}
+
+@keyframes throwBall {
+    0%, 100% {
+        left: 0;
+    }
+    50% {
+        left: 280px;
+    }
+}
+.body2{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(255, 255, 255);
+    }
+.div2{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    animation: loadBall infinite ease 0.5s ;
+    flex-direction: column;
+}
+@keyframes loadBall {
+    0%{
+        transition: none;
+        transform: none
+   
+    }
+    100%{
+        transform: scale(2);
+    }
+}
+.body3 {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: white;
+}
+
+.centerball {
+    width: 100px;
+    height: 100px;
+    background: green;
+    border-radius: 50%;
+    position: relative;
+    border: 4px solid black;
+}
+
+.road {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    animation: stopAndOrbit 6s infinite ease-in-out;
+}
+
+.smallball {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border: 4px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+
+@keyframes stopAndOrbit {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(90deg);
+    }
+    30% {
+        transform: rotate(90deg); 
+    }
+    55% {
+        transform: rotate(180deg);
+    }
+    60% {
+        transform: rotate(180deg); 
+    }
+    85% {
+        transform: rotate(270deg);
+    }
+    90% {
+        transform: rotate(270deg); 
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
