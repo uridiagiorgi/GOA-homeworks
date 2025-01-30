@@ -1,0 +1,28 @@
+.body1{
+    background-image: url(cwimage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    margin-top: 300px;
+    position: absolute;
+}
+p{
+    display:inline;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 200px;
+}
+h1{
+    display: inline;
+    color: white;
+    font-size: 100px;
+    font-weight: 600;
+    margin-bottom: 200px;
+}
+button{
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    
+}
