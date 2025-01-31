@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    color: whitesmoke;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.solar-system {
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+
+.sun {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: yellow;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 20px yellow;
+}
+
+.orbit {
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: rotate 10s linear infinite;
+}
+
+.planet {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.mercury  { width: 80px; height: 80px; }
+.venus    { width: 120px; height: 120px; }
+.earth    { width: 160px; height: 160px; }
+.mars     { width: 200px; height: 200px; }
+.jupiter  { width: 240px; height: 240px; }
+.saturn   { width: 280px; height: 280px; }
+.uranus   { width: 320px; height: 320px; }
+.neptune  { width: 360px; height: 360px; }
+
+.mercury .planet  { width: 8px; height: 8px; background: gray; top: 50%; left: 100%; }
+.venus .planet    { width: 12px; height: 12px; background: orange; top: 50%; left: 100%; }
+.earth .planet    { width: 14px; height: 14px; background: blue; top: 50%; left: 100%; }
+.mars .planet     { width: 10px; height: 10px; background: red; top: 50%; left: 100%; }
+.jupiter .planet  { width: 30px; height: 30px; background: brown; top: 50%; left: 100%; }
+.saturn .planet   { width: 26px; height: 26px; background: tan; top: 50%; left: 100%; }
+.uranus .planet   { width: 22px; height: 22px; background: lightblue; top: 50%; left: 100%; }
+.neptune .planet  { width: 20px; height: 20px; background: darkblue; top: 50%; left: 100%; }
+
+@keyframes rotate {
+    from { transform: translate(-50%, -50%) rotate(0deg); }
+    to   { transform: translate(-50%, -50%) rotate(360deg); }
+}
