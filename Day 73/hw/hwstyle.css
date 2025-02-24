@@ -1,0 +1,16 @@
+body{
+    background-color: yellowgreen;
+}
+button{
+    color: transparent black;
+    border: 4px solid white;
+    border: 9px;
+    color: aqua;
+    font-family: cursive;
+    height: 50px;
+    width: 200px;
+}
+img{
+    border: 10px double dodgerblue;
+    border-radius: 10px;
+}
