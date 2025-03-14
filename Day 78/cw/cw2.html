@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="userInput" placeholder="Type text">
+    <button onclick="returnInput()"></button>
+    <p id="Text">text</p>
+    <script>
+        function returnInput() {
+            let inputText = document.getElementById("userInput").value;
+            console.log(inputText);
+        }
+        document.getElementById("Text").innerText = inputText;
+    </script>
+</body>
+</html>
