@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="exitBtn">Exit Website</button>
+    <script>
+        console.log(17 + 39)
+        console.log(17 - 39)
+        console.log(17 * 39)
+        console.log(17 / 39)
+        let name = prompt("Please, enter your name: ");
+        console.log("Hi, " + name + "!");
+        console.log(17 > 39)
+        console.log(17 < 39)
+        console.log(17 >= 39)
+        console.log(17 <= 39)
+        console.log(17 == 39)
+        document.getElementById("exitBtn").onclick = function() {
+            if (confirm("ნამდვილად გსურთ საიტის დატოვება?")) {
+                console.log("you will leave the site soon");
+            } else {
+                console.log("you are staying on the site");
+            }
+        };
+    </script>
+</body>
+</html>
