@@ -1,0 +1,101 @@
+body {
+    display: flex;
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.sidebar {
+    width: 20%;
+    background: white;
+    padding: 20px;
+    height: 100vh;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.crest {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    margin: 20px 0;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: 600;
+}
+
+.sidebar-text {
+    font-size: 14px;
+    color: rgb(105, 105, 105);
+    margin-top: 50px;
+}
+
+.main-content {
+    width: 80%;
+    padding: 40px;
+}
+
+.content1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.content1-text {
+    max-width: 50%;
+}
+
+.content1-text h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.content1-text p {
+    color: grey;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.subscribe {
+    display: flex;
+    margin-top: 20px;
+}
+
+.subscribe input {
+    padding: 10px;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 5px;
+    flex: 1;
+}
+
+.subscribe button {
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    border: none;
+    margin-left: 10px;
+    border-radius: 7px;
+}
+
+.hero-image img {
+    width: 350px;
+    border-radius: 12px;
+}
+
+.facilitation {
+    margin-top: 40px;
+    font-size: 25px;
+    font-weight: 600;
+}
