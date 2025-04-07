@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <h1>Counter</h1>
+  <h2 id="value">0</h2>
+
+  <button onclick="kleba()">DECREASE</button>
+  <button onclick="dareseteba()">RESET</button>
+  <button onclick="gazrda()">INCREASE</button>
+    </center>
+
+  <script>
+    let count = 0;
+
+    function showCount() {
+      document.getElementById("value").textContent = count;
+    }
+
+    function kleba() {
+      count = count - 1;
+      showCount(); 
+    }
+
+    
+    function dareseteba() {
+      count = 0;
+      showCount(); 
+    }
+
+    
+    function gazrda() {
+      count = count + 1;
+      showCount(); 
+    }
+  </script>
+
+</body>
+</html>
