@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Enter your age: </h2>
+    <input type="text" id="ageInput" placeholder="age">
+    <button onclick="calculatePrice()">Calculate</button>
+    <p id="result"></p>
+
+    <script>
+        function calculatePrice() {
+          let age = document.getElementById("ageInput").value;
+          let result = document.getElementById("result");
+    
+          age = Number(age);
+    
+          if (isNaN(age) || age < 0) {
+            result.innerText = "please, enter correct age";
+          } else if (age < 6) {
+            result.innerText = "the ticket is fre";
+          } else if (age >= 6 && age <= 17) {
+            result.innerText = "the price of ticket is 5 lari";
+          } else if (age >= 18 && age <= 64) {
+            result.innerText = "the price of ticket is 10 lari";
+          } else {
+            result.innerText = "the price of ticket is 7 lari";
+          }
+        }
+      </script>
+</body>
+</html>
