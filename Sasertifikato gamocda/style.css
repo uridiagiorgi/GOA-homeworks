@@ -1,0 +1,84 @@
+.background {
+  margin: 0;
+  font-family: 'Oswald';
+  background-color: black;
+  color: #00ff44;
+}
+
+header {
+  background-color: rgb(0, 32, 0);
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #00ff44;
+}
+
+h1 {
+  margin: 0;
+  font-size: 40px;
+}
+
+nav {
+  margin-top: 15px;
+}
+
+nav a {
+  margin: 0 15px; /*zemot 0, marjvniv*/
+  color: #00ff88;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #00ffaa;
+}
+
+main {
+  padding: 31px 20px; /*zemot 31 px, marjvniv 20px*/
+  max-width: 900px;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 41px;
+}
+
+section h2 {
+  font-size: 29px;
+  margin-bottom: 10px;
+  color: #00ffaa;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+h4 {
+  background-color: black;
+  padding: 12px;
+  border-left: 5px solid #00ff88;
+  font-style: italic;
+}
+a {
+  color: #00ff88;
+}
+.logo{
+  margin-top: 15px;
+  border: 2px solid white;
+  /*animation: name duration timing-function delay iteration-count direction fill-mode;*/
+  animation: animation infinite 1s ease-in-out;
+  position: relative;
+}
+@keyframes animation{
+  0%{
+    left: 0;
+  }
+  50%{
+    left: 100px
+  }
+  100%{
+    left: 0;
+  }
+}
