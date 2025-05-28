@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="createPerson()">Create Peson</button>
+    <script>
+        function Person(name, lastname, age) {
+            this.name = name;
+            this.age = lastname;
+            this.lastname = age;
+        }
+        function createPerson() {
+            const person1 = new Person("Giorgi", "Uridia", 13);
+            console.log(person1);
+        }
+    </script>
+</body>
+</html>
