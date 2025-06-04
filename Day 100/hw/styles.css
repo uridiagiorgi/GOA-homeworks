@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    background-color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 0;
+}
+
+header p {
+    margin-top: 0;
+    color: grey;
+}
+.cube {
+    padding: 40px 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px black;
+}
+.green { background-color: rgb(63, 143, 63); color: white; }
+.red { background-color: rgb(233, 63, 63); color: white; }
+.white { background-color: white; color: black; border: 1px solid rgb(190, 190, 190); }
+.brown { background-color: rgb(255, 212, 71); }
+.light { background-color: rgb(211, 230, 230); border: 1px solid rgb(190, 190, 190); }
+.blue { background-color: rgb(83, 83, 206); color: white; }
+.black { background-color: white; color: white; }
+.stuff {
+    margin-top: 50px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px black;
+}
