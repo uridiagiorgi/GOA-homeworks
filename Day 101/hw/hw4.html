@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="replace">
+        <button id="oldButton">ძველი ღილაკი</button>
+    </div>
+    <script>
+        let replaceDiv = document.getElementById("replace");
+        let oldButton = document.getElementById("oldButton");
+        let newP = document.createElement("p");
+        newP.textContent = "new p";
+        replaceDiv.replaceChild(newP, oldButton);
+    </script>
+</body>
+</html>
