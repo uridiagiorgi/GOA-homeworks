@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body { text-align: center; background: black; color: white; margin-top: 100px; }
+        #time { font-size: 60px; margin-bottom: 20px; }
+        button { font-size: 20px; margin: 5px; padding: 10px 15px; }
+    </style>
+</head>
+<body>
+    <div id="time">0</div>
+    <button onclick="stop()">Stop</button>
+    <button onclick="reset()">Reset</button>
+
+    <script>
+        let seconds = 0
+        let timer = setInterval(function() {
+            seconds = seconds + 1
+            document.getElementById("time").innerText = seconds
+        }, 1000)
+
+        function stop() {
+            clearInterval(timer)
+        }
+
+        function reset() {
+            clearInterval(timer)
+            seconds = 0
+            document.getElementById("time").innerText = 0
+        }
+  </script>
+</body>
+</html>

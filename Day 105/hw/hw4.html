@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="startTime" type="number" placeholder="Enter econds" />
+    <button onclick="startTimer()">Start</button>
+    <div id="display">0</div>
+
+  <script>
+    let interval;
+
+    function startTimer() {
+        let time = parseInt(document.getElementById("startTime").value);
+        clearInterval(interval);
+
+        interval = setInterval(function() {
+            document.getElementById("display").textContent = time;
+            if (time <= 0) clearInterval(interval);
+            time--;
+        }, 1000);
+    }
+  </script>
+</body>
+</html>
