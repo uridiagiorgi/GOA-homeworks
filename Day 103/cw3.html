@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="p">do not hover over me</p>
+    <script>
+        let p = document.getElementById('p');
+        p.addEventListener('mouseenter', function () {
+            p.style.color = 'red';
+            p.textContent = 'why did you hover over me';
+        });
+    </script>
+</body>
+</html>
