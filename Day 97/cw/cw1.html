@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id = 'heading'>GOA</h1>
+    <img src="shrek.png" alt="" id="image" width="299px" height="299px">
+    <button onclick="changeWidth()">change width</button>
+    <button onclick="changeHeight()">change height</button>
+    <button onclick="changeBorderRadius()">change border radius</button>
+    <button onclick="addShadow()">add shadow</button>
+    <button onclick="changeHeadingColors()">change heading color</button>
+    <button onclick="changeHeadingFont()">change heading font</button>
+    <script>
+        let heading = document.getElementById('heading')
+        let image  = document.getElementById('image')
+        function changeWidth(){
+            image.style.width(300)
+        }
+
+    </script>
+</body>
+</html>

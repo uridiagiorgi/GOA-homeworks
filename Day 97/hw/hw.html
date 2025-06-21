@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Temperature gasayvana (°C → °F)</h2>
+    <label for="celsiusInput">Enter temperature in Celsius:</label>
+    <input type="number" id="celsiusInput" placeholder="enter">
+    <button onclick="gadayvanaTemperature()">Convert</button>
+
+    <p id="result"></p>
+
+    <script>
+        function gadayvanaTemperature() {
+            var celsius = document.getElementById("celsiusInput").value;
+            var fahrenheit = (celsius * 9/5) + 32;
+
+      
+            document.getElementById("result").innerText = 
+            celsius + "°C is " + fahrenheit.toFixed(2) + "°F";
+    }
+  </script>
+</body>
+</html>
