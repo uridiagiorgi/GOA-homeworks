@@ -1,0 +1,52 @@
+.bigdiv1{
+    height: 800px;
+    width: 800px;
+    background-color: darkorange;
+    border: 3px solid aqua;
+}
+.lildiv1{
+    height: 150px;
+    width: 150px;
+    border: 1px dotted rgb(55, 255, 0);
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+.div2{
+    height: 300px;
+    width: 300px;
+    background-color: cornflowerblue;
+    border: 3px solid fuchsia;
+    display: flex;
+    flex-direction: column;
+}
+.p3{
+    font-size: large;
+    font-weight: 600;
+    font-family: cursive;
+    flex-wrap: wrap;
+}
+.p4{
+    font-size: large;
+    font-weight: 600;
+    font-family: cursive;
+    flex-wrap: wrap;
+    color: darkgreen;
+    flex-shrink: unset;
+}
+.p5{
+    font-size: large;
+    font-weight: 600;
+    font-family: cursive;
+    color: dodgerblue;
+    flex-grow: inherit;
+}
+.h6{
+    font-weight: 900;
+    font-family:'Lucida Sans';
+    display: block;
+}
+.p6{
+    font-size: larger;
+    display: inline;
+}
