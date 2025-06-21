@@ -61,7 +61,8 @@ h3 {
 img {
     display: block;
     margin: 20px auto;
-    max-width: 180px;
+    width: 400px;
+    height: 450px;
 }
 footer {
     text-align: center;

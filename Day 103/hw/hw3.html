@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="hoverP">hover</p>
+    <script>
+        let p = document.getElementById('hoverP')
+        p.onmouseenter = function (){
+            let newEl = document.createElement('div');
+            newEl.innerText = "new element";
+            newEl.id = "tempDiv";
+            document.body.appendChild(newEl);
+        }
+        p.onmouseleave = function(){
+            let temp = document.getElementById('tempDiv');
+            if (temp) temp.remove();
+        }
+    </script>
+</body>
+</html>

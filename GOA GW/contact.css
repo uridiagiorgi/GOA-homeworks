@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #111;
+    font-family:sans-serif;
+    color: rgb(235, 235, 235);
+}
+header {
+    background-color: rgb(17, 17, 17);
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid red;
+}
+.logo {
+    font-size: 28px;
+    color: red;
+    font-weight: bold;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(235, 235, 235);
+    transition: 0.3s;
+}
+nav ul li a:hover {
+    color: red;
+}
+.contact-section {
+    padding: 60px 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.contact-section h2 {
+    font-size: 32px;
+    color: red;
+    margin-bottom: 30px;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact-form input, .contact-form textarea {
+    padding: 12px 15px;
+    background-color: rgb(29, 29, 29);
+    border: 1px solid rgb(53, 53, 53);
+    border-radius: 6px;
+    color: rgb(235, 235, 235);
+    font-size: 16px;
+}
+.contact-form input:focus, .contact-form textarea:focus {
+    outline: none;
+    border-color: red;
+}
+.contact-form button {
+    background-color: red;
+    color: black;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.contact-form button:hover {
+    background-color: rgb(182, 0, 0);
+}
+.contact-info {
+    margin-top: 40px;
+    color: rgb(204, 204, 204);
+    font-size: 16px;
+}
+.contact-info p {
+    margin-bottom: 20px;
+}
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.socials a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+.socials a:hover {
+    color: white;
+}
+footer {
+    background-color: rgb(14, 14, 14);
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid red;
+    color: rgb(77, 77, 77);
+    font-size: 14px;
+}

@@ -5,89 +5,84 @@
 }
 
 body {
-    font-family: 'Helvetica Neue', sans-serif;
-    background-color: rgb(22, 22, 22);
-    color: white;
+    background-color: rgb(14, 14, 14);
+    font-family: sans-serif;
+    color: rgb(231, 231, 231);
     line-height: 1.6;
 }
 
 header {
-    background-color: rgb(22, 22, 22);
-    border-bottom: 1px solid rgb(46, 46, 46);
-    padding: 20px 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+    background-color: rgb(20, 20, 20);
+    padding: 20px;
+    border-bottom: 2px solid red;
 }
 
 .logo {
-    font-size: 1.8rem;
-    font-weight: 700;
-    color: rgb(255, 46, 46);
-    letter-spacing: -0.5px;
+    font-size: 28px;
+    font-weight: bold;
+    color: red;
+    text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 nav ul {
-    list-style: none;
     display: flex;
-    gap: 30px;
-    flex-wrap: wrap;
+    gap: 25px;
+    list-style: none;
+    margin-top: 10px;
 }
 
-nav a {
+nav ul li a {
     text-decoration: none;
-    color: rgb(189, 189, 189);
-    font-weight: 500;
-    font-size: 1rem;
-    transition: color 0.2s ease;
+    color: rgb(231, 231, 231);
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: 0.3s ease;
 }
 
-nav a:hover {
-    color: rgb(255, 46, 46);
+nav ul li a:hover {
+    background-color: red;
+    color: black;
 }
 
-.h {
-    padding: 100px 60px;
-    background-color: rgb(22, 22, 22);
+section.h {
     text-align: center;
+    padding: 100px 20px;
+    background-color: rgb(20, 20, 20);
 }
 
-.h h1 {
-    font-size: 3rem;
+section.h h1 {
+    font-size: 48px;
+    color: red;
     margin-bottom: 20px;
-    font-weight: 700;
-    color: rgb(255, 46, 46);
 }
 
-.h p {
-    font-size: 1.2rem;
-    color: rgb(189, 189, 189);
+section.h p {
+    font-size: 18px;
+    color: rgb(206, 206, 206);
     margin-bottom: 30px;
 }
 
 .btn {
     display: inline-block;
-    padding: 12px 24px;
-    background-color: rgb(255, 46, 46);
-    color: white;
-    font-weight: 600;
-    font-size: 1rem;
-    border-radius: 6px;
+    padding: 12px 25px;
+    background-color: red;
+    color: black;
     text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
     transition: background-color 0.3s ease;
 }
 
 .btn:hover {
-    background-color: rgb(180, 0, 0);
+    background-color: rgb(211, 0, 0);
 }
 
 footer {
     text-align: center;
-    padding: 30px 20px;
-    background-color: rgb(22, 22, 22);
-    border-top: 1px solid rgb(49, 49, 49);
-    color: rgb(189, 189, 189);
-    font-size: 0.95rem;
-    margin-top: 40px;
+    padding: 20px;
+    background-color: black;
+    border-top: 2px solid red;
+    font-size: 14px;
+    color: rgb(128, 128, 128);
 }
